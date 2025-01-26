@@ -42,4 +42,4 @@ client.on("messageCreate", (message) => {
 // Handle Commands
 client.on(Events.InteractionCreate, botCommandHandler);
 
-client.login(process.env.DISCORD_BOT_CLIENT_ID);
+client.login(process.env.DISCORD_BOT_TOKEN);
