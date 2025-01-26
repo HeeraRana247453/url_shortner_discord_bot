@@ -32,7 +32,6 @@ client.on("messageCreate", (message) => {
     if (message.author.bot) 
         return;
     else if (message.content.startsWith("create")) {
-        res.send(`message received - ${message}`);
         const replyShortUrl = handleCreateNewShortURL(message,PORT);
         return replyShortUrl;
     }
