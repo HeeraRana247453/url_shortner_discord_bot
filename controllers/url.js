@@ -14,7 +14,7 @@ const handleCreateNewShortURL = async (message,PORT) => {
         redirectURL: url,
         visitHistory: []
     });
-    const reply = message.reply({ content: "Generated Short-url: " + `http://localhost:${PORT}/url/${shortId}`});
+    const reply = message.reply({ content: "Generated Short-url: " + `https://shorturl-iirl.onrender.com/${shortId}`});
     return reply;
 }
 
