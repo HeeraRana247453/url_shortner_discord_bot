@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 // Connect to DB
 connectToMongo();
 // ROUTES
-app.use("/", urlRoute);
+app.use("/url", urlRoute);
 app.listen(PORT, () => console.log(`Server is running at Port: ${PORT}`));
 
 
