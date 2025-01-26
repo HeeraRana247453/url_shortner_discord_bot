@@ -36,7 +36,7 @@ client.on("messageCreate", (message) => {
         return replyShortUrl;
     }
     else
-        message.reply({ content: "Hi from bot" });
+        message.reply({ content: "Hi from URL_Shortner Bot" });
 });
 
 // Handle Commands
